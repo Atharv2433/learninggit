@@ -53,6 +53,7 @@ public class NQueens {
         }
     }
 
+
     
 
     public static void main(String[] args) {
@@ -66,6 +67,7 @@ public class NQueens {
                 board[i][j] = 'x';
             }
         }
+        System.out.println("Ready VERSION 2");
 
         calculateBoard(board, 0);
         sc.close(); // Close the scanner
