@@ -67,7 +67,7 @@ public class NQueens {
                 board[i][j] = 'x';
             }
         }
-        System.out.println("Ready VERSION 2");
+        System.out.println("Ready VERSION 3");
 
         calculateBoard(board, 0);
         sc.close(); // Close the scanner
